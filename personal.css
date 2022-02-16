@@ -21,17 +21,47 @@
 }
 
 #other_sites {
+    position: absolute;
     height: 150px;
-    top: 50px;
+    top: 151px;
+    left: 20px;
 }
 
 #artist {
+    position: absolute;
     display: block;
+    height: 120px;
+    bottom: 40px;
+    left: 20px;
+
 }
 
 #song {
+    position: relative;
     width: 530px;
-    height: 500px;
+    height: 384px;
+    top: 6px;
+    left: 400px;
+}
+
+#log {
+    position: absolute;
+    height: 150px;
+    top: 151px;
+    right: 20px;
+}
+
+#image {
+    width: 150px;
+    height: 150px;
+}
+
+#album {
+    position: absolute;
+    display: block;
+    height: 150px;
+    bottom: 10px;
+    right: 20px;
 }
 
 footer {
@@ -39,4 +69,6 @@ footer {
     background-color: blueviolet;
     position: fixed;
     bottom: 0px;
+    color: yellowgreen;
+    font-size: smaller;
 }
