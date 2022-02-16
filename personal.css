@@ -1,0 +1,42 @@
+#header {
+    color:khaki; text-align: center; font-size: 50px; 
+    background-image: url(https://cdn.travie.com/news/photo/first/201705/img_19694_12.jpg);
+    background-size: 100% 100%; 
+    background-position: center;
+    opacity: 0.8;
+    line-height: 5ch; 
+}
+#supplement {
+    color:gray; opacity: 0.3;
+}
+.main {
+    border: 0.5px;
+    width: 150px;
+    height: 100px;
+    background-color: antiquewhite;
+    display: inline-block;
+    margin: 50px;
+    padding: 50px;
+    margin-top: 15px;
+}
+
+#other_sites {
+    height: 150px;
+    top: 50px;
+}
+
+#artist {
+    display: block;
+}
+
+#song {
+    width: 530px;
+    height: 500px;
+}
+
+footer {
+    border: 0.5px dashed blue;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+}
