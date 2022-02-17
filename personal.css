@@ -24,7 +24,6 @@
     position: fixed;
     height: 200px;
     top: 151px;
-    left: 20px;
 }
 
 #artist {
@@ -32,8 +31,6 @@
     display: block;
     height: 120px;
     bottom: 40px;
-    left: 20px;
-
 }
 
 #song {
