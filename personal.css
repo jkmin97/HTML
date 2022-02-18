@@ -20,10 +20,13 @@
     margin-top: 15px;
 }
 
+
+
 #other_sites {
     position: fixed;
     height: 200px;
     top: 151px;
+    border-radius: 3px;
 }
 
 #artist {
@@ -31,6 +34,7 @@
     display: block;
     height: 120px;
     bottom: 40px;
+    border-radius: 3px;
 }
 
 #song {
@@ -84,6 +88,12 @@
     top: 151px;
     right: 20px;
 }
+
+#field {
+    margin-left: 0px;
+    padding: 15px;
+}
+
 
 #image {
     width: 150px;

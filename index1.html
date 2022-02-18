@@ -4,163 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel='stylesheet' type='text/css' href='style.css'/>
-    <p id="header" role="head description"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<strong> 복습</strong></p>
-    <style>
-        #header {
-            height: 200px; background-image: url(Picture.jpg); 
-            background-size: 100% 100%; font-size: 30px; line-height: 220px;
-        }
-        #container {
-            height: 954x;
-        }
-        #footer {
-            height: 50px; text-align: center;
-        }
-    </style>
+    <title>personal</title>
+<link rel="stylesheet" type="text/css" href="personal.css">
 </head>
 <body>
-    <!-- <div id="header" style="border: 1px dashed black;" role="head description"><strong><p>&ensp;&ensp;&ensp;&ensp;&ensp;배운 것 복습</strong></div></p> <br> -->
-    <div id="container" style="border: 3px dashed black;" role="contents"> <br>
-        
-        <ul>
-            <li>웹의 특징
-                <ul>
-                    <li style="color: blueviolet;">
-                        인터넷을 활용하는 응용 서비스 중의 하나
-                        <li style="color: blueviolet;">
-                            웹 서버와 웹 브라우저로 구성되는 정보 전달 및 공유 서비스
-                            <li style="color: blueviolet;">
-                                인터넷상에 정보가 얽혀있는 무형의 정보 네트워크
-                            </li>
-                        </li>
-                    </li>
-                </ul> <br>
-            </li>
-            <li>
-                CSS의 구조
-                <ul>
-                    <li style="color: blueviolet;">
-                        선택자(Selector) {
-                            속성이름 : 값 
-                        }
-                        <li style="color: blueviolet;">
-                            폰트, 색, 애니메이션 효과까지 다 속성으로 변경
-                            <li style="color: blueviolet;">
-                                상속 - 부모 태그에 적용한 속성이 자식 태그들한테까지 영향을 미쳐서 덜 귀찮게 손봐도 된다는 특징.
-                            </li>
-                        </li>
-                    </li>
-                </ul> <br>
-            </li>
-            <li>
-                HTML의 특징
-                <ul>
-                    <li style="color: blueviolet;">
-                        TAG
-                        <ul>
-                            <li style="color: brown;">
-                                <,>를 이용해서 표현.
-                                <li style="color: brown;">
-                                    내용에 대한 타입을 나타내는 용도.
-                                    <li style="color: brown;">
-                                        태그는 열리고 닫히는 태그 구조를 가지고 있으며 이는 한 쌍.
-                                        <li style="color: brown;">
-                                            태그 이름은 대소문자를 구분하지 않으나 보통 소문자로 이용.
-                                            <li style="color: brown;">
-                                                각 태그는 시작 태그와 종료 태그 쌍이 서로 교차하면 안 됨.
-                                            </li>
-                                        </li>
-                                    </li>
-                                </li>
-                            </li>
-                        </ul> <br>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                CSS 선택자 유형
-                <ul>
-                    <li style="color: blueviolet;">
-                        태그 선택자 - 태그명 사용.
-                    </li>
-                    <li style="color: blueviolet;">
-                        아이디 선택자 # - 필요한 부분에 유일한 아이디를 지정하고 CSS 적용.
-                    </li>
-                    <li style="color: blueviolet;">
-                        클래스 선택자 . - 정의한 클래스 선택자를 태그에 적용.
-                    </li>
-                </ul> <br>
-            </li>
-            <li>
-                구조선택자 태그
-            </li>
-        </ul>
-        </li>
-        <div id="rest" style="border: 2px dashed yellow; display:inline-block" role="contents">
-        
-        </li>
-            <table border>
-            <tr>
-                <th>종류</th>
-                <th>설명</th>
-            </tr>
-            <tr>
-                <td>E:root</td>
-                <td>최상위 태그 선택</td>
-            </tr>
-            <tr>
-                <td>E:nth-child(n)</td>
-                <td>순서와 일치하는 E 태그 선택(순서에 다른 태그 포함)</td>
-            </tr>
-            <tr>
-                <td>E:nth-last-child(n)</td>
-                <td>뒤에서부터 순서와 일치하는 E 태그 선택(순서에 다른 태그 포함)</td>
-            </tr>
-            <tr>
-                <td>E:nth-of-type(n)</td>
-                <td>순서가 일치하는 E 태그 선택(순서에 E 태그만 포함)</td>
-            </tr>
-            <tr>
-                <td>E:nth-last-of-type(n)</td>
-                <td>뒤에서부터 순서와 일치하는 E 태그 선택(순서에 E 태그만 포함)</td>
-            </tr>
-            <tr>
-                <td>E:first-child</td>
-                <td>맨 첫번째 태그가 E 태그인 경우 선택(순서에 다른 태그 포함)</td>
-            </tr>
-            <tr>
-                <td>E:last-child</td>
-                <td>맨 뒤의 태그가 E 태그인 경우 선택(순서에 다른 태그 포함)</td>
-            </tr>
-            <tr>
-                <td>E:first-of-type</td>
-                <td>E 태그 중 첫번째 선택</td>
-            </tr>
-            <tr>
-                <td>E:last-of-type</td>
-                <td>E 태그 중 마지막번째 선택</td>
-            </tr>
-            <tr>
-                <td>E:only-child</td>
-                <td>유일한 자식인 E 태그 선택</td>
-            </tr>
-            <tr>
-                <td>E:only-of-type</td>
-                <td>유일한 타입의 E 태그 선택</td>
-            </tr>
-            <tr>
-                <td>E:empty</td>
-                <td>텍스트와 공백을 포함하여 자식요소가 없는 E 태그 선택</td>
-            </tr>
-        </table>
-        </div>
+    <div id="header" style="border: 3px;" role="head description">
+     🎶PERSONAL &ensp;&ensp;MASTERPIECE🎶 </div>
+    <div id="supplement" role="supplement description">
     </div>
-     <br>
-    <div id="footer" style="border: 2px dashed black;" role="rest"><p>감사합니다.</div></p>
-    <a href="https://jkmin97.github.io/HTML/jkmin1.html" title="jkmin1" id="jkmin1">WEB 수업</a> <br>
-    <a href="https://jkmin97.github.io/review/5.html" title="5" id="5">HTML 수업</a>
-
+    <div class="main" id="other_sites">다른 사이트<br>
+        <a href="https://vibe.naver.com/today" title="네이버 바이브">네이버 바이브</a> <br>
+        <a href="https://www.melon.com/" title="멜론">멜론</a> <br>
+        <a href="https://www.youtube.com/musicpremium" title="Youtube music">Youtube music</a> <br>
+        <a href="https://music.bugs.co.kr/" title="벅스">벅스</a> <br>
+        <a href="https://www.genie.co.kr/" title="지니">지니</a> <br>
+        <a href="https://www.music-flo.com/?utm_source=naver&utm_medium=cpc&utm_campaign=bs_pc_cashed_210310&utm_content=homelink&utm_term=%ED%94%8C%EB%A1%9C" title="플로">플로</a>
+    </div>
+    <div class="main" id="song">노래<br><br>
+        <iframe id="how" src="https://youtube.com/embed/m3DZsBw5bnE"></iframe> <img id="akmu" src="https://w.namu.la/s/a23fe4770c0ad3a8d3b0044c531388f5ee40131787cb1968326393c8f17013151ffd87db7297257d2035b457b48d195b118df33536f41e4558c5fc8b869ac5665f5e31958f911b3095cb62493b3c5fb90bfe5efe4277ad343bf70baa0ff63e81"> <br>
+        악뮤 - 어떻게 이별까지 사랑하겠어, 널 사랑하는거지<br><br>
+        <iframe id="bye" src="https://www.youtube.com/embed/6k6EekzWeos"></iframe> <img id="hwang" src="https://image.bugsm.co.kr/album/images/500/40390/4039000.jpg"><br>
+        황치열 - 안녕이란 <br><br>
+        <iframe id="love" src="https://www.youtube.com/embed/ejrhM4cLN-U"></iframe> <img id="lim" src="https://image.bugsm.co.kr/album/images/500/5298/529897.jpg"><br>
+        임창정 - 또 다시 사랑
+    </div>
+    <div class="main" id="log">
+        <fieldset id="field">
+            <legend>로그인</legend>
+            <center>
+            <label for="id">
+            <input type="text" name="id" style="width:100px" placeholder="아이디" required></label>
+            <input type="text" name="pw" style="width:100px" placeholder="비밀번호" required>
+            <label for="my_input2"></label>
+            <input type="button" style="width:50px" value="Login"> <br>
+            <input type="button"  style="width:50px" value="Join">
+        </center>
+        </fieldset>
+    </div>
+    <div class="main" id="artist"> 오늘의 아티스트 <br>
+        <a href="https://namu.wiki/w/%EC%9E%84%EC%B0%BD%EC%A0%95">임창정</a> <br>
+        <a href="https://namu.wiki/w/%EC%84%B1%EC%8B%9C%EA%B2%BD">성시경</a> <br>
+        <a href="https://namu.wiki/w/%EB%B0%98%ED%95%98%EB%82%98">반하나</a> <br>
+        <a href="https://namu.wiki/w/%EC%96%B4%EB%B0%98%EC%9E%90%EC%B9%B4%ED%8C%8C">어반자카파</a> <br>
+        <a href="https://namu.wiki/w/%ED%99%A9%EC%B9%98%EC%97%B4">황치열</a>   
+    </div>
+    <div class="main" id="album"> 오늘의 앨범 <br>
+        <img id="image" src="https://w.namu.la/s/2122478afd9b7e569d25b7b791ae6bd434cab7fa167d08b10a8dcb2037ac91c4e36054a31a66b96a6819427dbe2fa9ec9769108355057fd687d2dba820366275ac6ffdb6de479e884cd171f0f859ee08af14af0ea73d3e805e78b6bc74fe61fbde84d9b95298805ae7ccfba9439399a5">
+    </div>
+    <footer>
+        본 페이지는 모두 학습용임을 밝힙니다. <br>
+        <del>이미지 출처 : https://cdn.travie.com/news/photo/first/201705/img_19694_12.jpg</del> <br>
+        <del>앨범 이미지 출처 : https://w.namu.la/s/2122478afd9b7e569d25b7b791ae6bd434cab7fa167d08b10a8dcb2037ac91c4e36054a31a66b96a6819427dbe2fa9ec9769108355057fd687d2dba820366275ac6ffdb6de479e884cd171f0f859ee08af14af0ea73d3e805e78b6bc74fe61fbde84d9b95298805ae7ccfba9439399a5</del> <br>
+        <del>악뮤 이미지 출처 : https://w.namu.la/s/a23fe4770c0ad3a8d3b0044c531388f5ee40131787cb1968326393c8f17013151ffd87db7297257d2035b457b48d195b118df33536f41e4558c5fc8b869ac5665f5e31958f911b3095cb62493b3c5fb90bfe5efe4277ad343bf70baa0ff63e81</del> <br>
+        <del>황치열 이미지 출처 : https://image.bugsm.co.kr/album/images/500/40390/4039000.jpg</del> <br>
+        <del>임창정 이미지 출처 : https://image.bugsm.co.kr/album/images/500/5298/529897.jpg</del>
+    </footer>
 </body>
 </html>
