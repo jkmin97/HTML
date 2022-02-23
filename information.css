@@ -96,3 +96,8 @@ div#box1 {
 	 75% {border-radius:50% 50% 0 50%;background: lightblue;width:200px;height:200px;}
      100% {border-radius: 60% 60% 60% 60%; width:250px; height: 250px; background: rgb(196, 242, 220);}
     }
+
+main {
+    border: 0.5vw solid black;
+    height: 250px;
+}
