@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>mobile_artist</title>
     <style>
         .ex1 {
@@ -43,7 +43,7 @@
                   또 다른 정보
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="today_live.html">오늘의 라이브</a></li>
+                  <li><a class="dropdown-item" href="today_song.html">오늘의 노래</a></li>
                   <li><a class="dropdown-item" href="#">오늘의 커버</a></li>
                   <li>
                     <hr class="dropdown-divider">
@@ -65,69 +65,89 @@
     
       <div class="container">
         <div class="row">
-            <div class="ex2 col-md-4 offset-col-md-4">오늘의 아티스트</div>
-            <div class="container1">
-                <div class="row">
-                  <div class="offset-md-4 col-md-4 offset-md-4">
-                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">+
-                      <div class="carousel-item active">
-                        <img src="https://img.mbn.co.kr/filewww/news/2021/11/10/1636497221618af745b6a95.jpg"
-                            class="d-block w-100" alt="Lim">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://img.marieclairekorea.com/2021/05/mck_60a7110181487.jpg"
-                            class="d-block w-100" alt="Sung">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://t1.daumcdn.net/cfile/tistory/993ED8485FFAC41617"
-                            class="d-block w-100" alt="Ban">
-                      </div>
-                      <div class="carousel-item">
-                          <img src="https://spnimage.edaily.co.kr/images/Photo/files/NP/S/2021/11/PS21112500024.jpg"
-                          class="d-block w-100" alt="Urban">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="http://newsimg.hankookilbo.com/2017/06/21/201706211872314695_1.jpg"
-                        class="d-bolck w-100" alt="Hwang">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="http://www.newsfreezone.co.kr/news/photo/202011/277190_272039_1050.jpg"
-                        class="d-block w-100" alt="IU">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://ww.namu.la/s/7f00881fcacc4ad815b0da4ba672af1bbf91b849ceaaf92299162be5d7f3c08042355640283f29c599fa741097931d0e4c8ed6ad8cc2711ce3b39c709640a2148e1b6c5736063e5aadd3c60f24434916eadd31ed0c0c67014ba32492dc26da20"
-                        class="d-block w-100" alt="Jan">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://dimg.donga.com/wps/NEWS/IMAGE/2018/11/13/92860373.3.jpg"
-                        class="d-block w-100" alt="Noel">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://w.namu.la/s/bbeb7b848c963ffca22d4f4c753ad243502e61159257a0768b275e49ab70a9b42fb3eb9f89673b2b94f138236ab240790625f075756d55ae2badc79d37217b27d91c3f023fa4cad2e86341e005b8e2127f4c8411d7326882baad8631b81a253f"
-                        class="d-block w-100" alt="Punch">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="http://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2020/03/21/GRMTjLNM9a88637203974033409433.jpg"
-                        class="d-block w-100" alt="Park">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                      data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                      data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                  </div>
-                </div>
-              </div>
+          <div class="card col-md-3">
+            <img src="https://photo.jtbc.joins.com/news/jam_photo/202111/19/b085aff1-f605-4f54-86eb-9336e1f87878.jpg" class="card-img-top" alt="Lim">
+            <div class="card-body">
+              <h5 class="card-title">임창정</h5>
+              <p class="card-text">대한민국 대표 멀티 엔터테이너</p>
+              <a href="https://namu.wiki/w/%EC%9E%84%EC%B0%BD%EC%A0%95" class="btn btn-primary">임창정이 궁금하다면?</a>
             </div>
+          </div>
+          <div class="card col-md-3">
+            <img src="https://img.vogue.co.kr/vogue/2021/06/style_60d57fc23f951-930x620.jpeg" class="card-img-top" alt="Sung">
+            <div class="card-body">
+              <h5 class="card-title">성시경</h5>
+              <p class="card-text">대한민국 대표 발라드 가수</p>
+              <a href="https://namu.wiki/w/%EC%84%B1%EC%8B%9C%EA%B2%BD" class="btn btn-primary">성시경이 궁금하다면?</a>
             </div>
+          </div>
+          <div class="card col-md-3">
+            <img src="http://image.genie.co.kr/Y/IMAGE/IMG_ARTIST/080/269/599/80269599_3_600x600.JPG" class="card-img-top" alt="Ban">
+            <div class="card-body">
+              <h5 class="card-title">반하나</h5>
+              <p class="card-text">대한민국의 싱어송라이터</p>
+              <a href="https://namu.wiki/w/%EB%B0%98%ED%95%98%EB%82%98"
+                class="btn btn-primary">반하나 궁금하다면?</a>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <img src="http://spnimage.edaily.co.kr/images/photo/files/NP/S/2021/11/PS21112500024.jpg" class="card-img-top" alt="Urban">
+            <div class="card-body">
+              <h5 class="card-title">어반자카파</h5>
+              <p class="card-text">대한민국 대표 혼성그룹</p>
+              <a href="https://namu.wiki/w/%EC%96%B4%EB%B0%98%EC%9E%90%EC%B9%B4%ED%8C%8C" class="btn btn-primary">어반자카파가 궁금하다면?</a>
+            </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="https://pds.joins.com/news/component/htmlphoto_mmdata/201706/13/e4f68319-d8f0-4a52-a45c-1f62e8a38992.jpg" class="card-img-top" alt="Hwang">
+          <div class="card-body">
+            <h5 class="card-title">황치열</h5>
+            <p class="card-text">대한민국 대표 발라더</p>
+            <a href="https://namu.wiki/w/%ED%99%A9%EC%B9%98%EC%97%B4" class="btn btn-primary">황치열이 궁금하다면?</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="http://img.segye.com/content/image/2021/12/05/20211205503016.jpg" class="card-img-top" alt="IU">
+          <div class="card-body">
+            <h5 class="card-title">아이유</h5>
+            <p class="card-text">대한민국 대표 국민스타</p>
+            <a href="https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%9C%A0" class="btn btn-primary">아이유가 궁금하다면?</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="https://ww.namu.la/s/7f00881fcacc4ad815b0da4ba672af1bbf91b849ceaaf92299162be5d7f3c08042355640283f29c599fa741097931d0e4c8ed6ad8cc2711ce3b39c709640a2148e1b6c5736063e5aadd3c60f24434916eadd31ed0c0c67014ba32492dc26da20" class="card-img-top" alt="Jan">
+          <div class="card-body">
+            <h5 class="card-title">잔나비</h5>
+            <p class="card-text">대한민국 대표 밴드</p>
+            <a href="https://namu.wiki/w/%EC%9E%94%EB%82%98%EB%B9%84" class="btn btn-primary">잔나비가 궁금하다면?</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="https://dimg.donga.com/wps/NEWS/IMAGE/2018/11/13/92860373.3.jpg" class="card-img-top" alt="No">
+          <div class="card-body">
+            <h5 class="card-title">노을</h5>
+            <p class="card-text">대한민국 대표 발라드 그룹</p>
+            <a href="https://namu.wiki/w/%EB%85%B8%EC%9D%84(%EB%B3%B4%EC%BB%AC%EA%B7%B8%EB%A3%B9)" class="btn btn-primary">노을이 궁금하다면?</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="http://archivenew.vop.co.kr/images/mobilethumbnail/2019-01/16055422_345456456.jpg" class="card-img-top" alt="Punch">
+          <div class="card-body">
+            <h5 class="card-title">펀치</h5>
+            <p class="card-text">대한민국 대표 히트곡 제조기</p>
+            <a href="https://namu.wiki/w/%ED%8E%80%EC%B9%98(%EA%B0%80%EC%88%98)" class="btn btn-primary">펀치가 궁금하다면?</a>
+          </div>
+          <div class="card col-md-3">
+            <img src="https://file.mk.co.kr/meet/neds/2021/10/image_readtop_2021_935318_16330719764801587.jpeg" class="card-img-top" alt="Park">
+            <div class="card-body">
+              <h5 class="card-title">박혜원</h5>
+              <p class="card-text">대한민국 대표 발라드 가수</p>
+              <a href="https://namu.wiki/w/%EB%B0%95%ED%98%9C%EC%9B%90(%EA%B0%80%EC%88%98)" class="btn btn-primary">박혜원이 궁금하다면?</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>     
 </body>
 </html>

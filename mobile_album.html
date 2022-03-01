@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>Mobile_album</title>
     <style>
         .ex1 {
@@ -42,7 +42,7 @@
                   또 다른 정보
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="today_live.html">오늘의 라이브</a></li>
+                  <li><a class="dropdown-item" href="today_song.html">오늘의 노래</a></li>
                   <li><a class="dropdown-item" href="#">오늘의 커버</a></li>
                   <li>
                     <hr class="dropdown-divider">
@@ -62,14 +62,47 @@
         </div>
       </nav>
     
-    <div class="container fluid"></div>
-    <div class="row">
-        <div class="ex2 col-md">오늘의 앨범
-            <div class="ex2 col-md"><img src="https://image.yes24.com/goods/70861317/XL" width="200vw" height="200vw" alt="Jannabi"> <br>잔나비</div>
-            <div class="ex2 col-md"><img src="http://www.iloveorganic.co.kr/news/photo/202109/329389_71989_5254.jpg" width="200vw" height="200vw" alt="Ihai"> <br>이하이</div>
-            <div class="ex2 col-md"><img src="https://image.bugsm.co.kr/album/images/200/40689/4068912.jpg?version=20211229033455.0" alt="ha"> <br> 하성운</div>
-        </div>
-        </div>
+      <div class="container">
+        <div class="row">
+            <div class="ex2 col-md-4 offset-col-md-4">오늘의 앨범</div>
+            <div class="container1">
+                <div class="row">
+                  <div class="offset-md-4 col-md-4 offset-md-4">
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">+
+                      <div class="carousel-item active">
+                        <img src="https://image.bugsm.co.kr/album/images/500/40691/4069154.jpg"
+                            class="d-block w-100" alt="propose">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/051/769/82051769_1621328428038_1_600x600.JPG"
+                            class="d-block w-100" alt="name">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://image.bugsm.co.kr/album/images/500/40684/4068421.jpg"
+                            class="d-block w-100" alt="snow">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="https://image.bugsm.co.kr/album/images/500/40448/4044879.jpg"
+                          class="d-block w-100" alt="traffic">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
