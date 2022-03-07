@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>login</title>
+    <script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .ex1 {
+            border: .5vw solid black;
+            text-align: center;
+            background-color: bisque;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: beige;
+        }
+
+        .form-signin {
+            width: 100%;
+            max-width: 330px;
+            padding: 15px;
+            margin: auto;
+        }
+
+        .form-signin .checkbox {
+            font-weight: 400;
+        }
+
+        .form-signin .form-floating:focus-within {
+            z-index: 2;
+        }
+
+        .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <body class="text-center">
+        <main class="form-signin">
+            <form action="login.jsp" method="post">
+                <h1 class="h3 mb-3 fw-normal">로그인 페이지</h1>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="id" placeholder="아이디 입력...">
+                    <label for="id">아이디</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="pwd" placeholder="Password">
+                    <label for="pwd">비밀번호</label>
+                </div>
+
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> 아이디 저장
+                    </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">로그인</button>
+                <p class="mt-5 mb-3 text-muted">&copy; 2021-2022</p>
+            </form>
+        </main>
+    </body>
+
+</html>
